@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0B2545" />
+
+  <title>Eletricista em [Sua Cidade] | Instalações e Manutenção Elétrica</title>
+  <meta name="description" content="Eletricista profissional em [Sua Cidade]. Instalação de tomadas, iluminação, quadros elétricos, disjuntores e manutenção. Solicite orçamento pelo WhatsApp." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Eletricista em [Sua Cidade]" />
+  <meta property="og:description" content="Serviços elétricos residenciais e comerciais com segurança e garantia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link (acessibilidade) -->
+  <a class="skip-link" href="#main">Ir para o conteúdo principal</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Início">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        </span>
+        <span data-config="nomeCurto">Eletricista</span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__menu" id="menu">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+          <li>
+            <a href="#" class="btn btn--primary btn--sm" data-whatsapp="Olá! Gostaria de solicitar um orçamento.">
+              Orçamento
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge" data-config="cidadeBadge">Atendimento em [Sua Cidade] e região</span>
+          <h1 class="hero__title">
+            Serviços elétricos com <span>segurança</span> e <span>qualidade</span>
+          </h1>
+          <p class="hero__text">
+            Instalações, manutenção e reparos elétricos residenciais e comerciais.
+            Orçamento rápido, atendimento pontual e serviço com garantia.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary btn--lg"
+               data-whatsapp="Olá! Gostaria de solicitar um orçamento para um serviço elétrico.">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.2 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.8 2c.1.1.1.3 0 .4l-.3.4-.3.3c-.1.1-.2.3 0 .5.1.2.6 1 1.3 1.6.9.8 1.6 1 1.9 1.2.2.1.4 0 .5-.1l.7-.8c.2-.2.3-.2.5-.1l1.9.9c.2.1.4.2.4.3.1.2.1.9-.1 1.6Z"/></svg>
+              Solicitar orçamento
+            </a>
+            <a href="#servicos" class="btn btn--outline btn--lg">Ver serviços</a>
+          </div>
+
+          <ul class="hero__list">
+            <li>✓ Atendimento pontual</li>
+            <li>✓ Materiais de qualidade</li>
+            <li>✓ Serviço com garantia</li>
+          </ul>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <div class="hero__art-glow"></div>
+          <div class="hero__art-icon">
+            <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Sobre mim</span>
+          <h2 class="section__title">Experiência e compromisso em cada serviço</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              Sou <strong data-config="nome">[Seu Nome]</strong>, eletricista atuando em
+              <strong data-config="cidade">[Sua Cidade]</strong> e região. Realizo instalações,
+              manutenções e reparos elétricos residenciais e comerciais, sempre seguindo normas
+              de segurança e utilizando materiais de qualidade.
+            </p>
+            <p>
+              Antes de iniciar qualquer serviço, faço uma avaliação completa e apresento um
+              orçamento claro, sem surpresas. Meu compromisso é entregar um trabalho bem feito,
+              no prazo combinado e com total segurança para você e sua família.
+            </p>
+            <p class="about__note">
+              ✏️ <em>Edite este texto com sua trajetória real. Não inclua certificações ou
+              qualificações que você não possui.</em>
+            </p>
+          </div>
+
+          <aside class="about__cards reveal">
+            <div class="info-card">
+              <h3>Residencial</h3>
+              <p>Casas, apartamentos e condomínios.</p>
+            </div>
+            <div class="info-card">
+              <h3>Comercial</h3>
+              <p>Lojas, escritórios e pequenos negócios.</p>
+            </div>
+            <div class="info-card">
+              <h3>Emergências</h3>
+              <p>Atendimento para problemas urgentes.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Serviços</span>
+          <h2 class="section__title">O que eu faço</h2>
+          <p class="section__lead">Soluções elétricas completas, do reparo pontual à instalação nova.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="9" cy="15" r="1"/><circle cx="15" cy="15" r="1"/></svg>
+            </div>
+            <h3>Tomadas e interruptores</h3>
+            <p>Instalação, troca e correção de tomadas, interruptores e pontos de energia.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 1 5 5l-2 2-5-5 2-2z"/><path d="m12 9-8 8v3h3l8-8"/></svg>
+            </div>
+            <h3>Manutenção elétrica</h3>
+            <p>Diagnóstico e reparo de falhas, curtos-circuitos, sobrecargas e fiação antiga.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>
+            </div>
+            <h3>Iluminação</h3>
+            <p>Instalação de luminárias, spots, fitas LED, sensores e projetos de iluminação.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+            </div>
+            <h3>Troca de disjuntores</h3>
+            <p>Substituição e dimensionamento correto de disjuntores para evitar sobrecargas.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h4M7 12h6M7 16h3M15 8h2M15 12h2M15 16h2"/></svg>
+            </div>
+            <h3>Quadros elétricos</h3>
+            <p>Montagem, organização e adequação de quadros de distribuição.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            </div>
+            <h3>Diagnóstico de rede</h3>
+            <p>Identificação de problemas na rede elétrica com testes e medições precisas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Diferenciais</span>
+          <h2 class="section__title">Por que me escolher</h2>
+        </header>
+
+        <div class="grid grid--4">
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <h3>Qualidade</h3>
+            <p>Serviço executado com atenção aos detalhes e materiais de primeira.</p>
+          </div>
+
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <h3>Pontualidade</h3>
+            <p>Horário combinado é horário cumprido. Sem atrasos.</p>
+          </div>
+
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Segurança</h3>
+            <p>Serviços seguindo normas técnicas e boas práticas do setor.</p>
+          </div>
+
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v6c0 5 3.5 9 9 10 5.5-1 9-5 9-10V7l-9-5z"/></svg>
+            </div>
+            <h3>Compromisso</h3>
+            <p>Orçamento transparente e serviço executado conforme combinado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section class="section section--alt" id="galeria">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Galeria</span>
+          <h2 class="section__title">Trabalhos realizados</h2>
+          <p class="section__lead">
+            ✏️ Substitua os blocos abaixo por fotos reais (ideal: 800×600px, WebP ou JPG).
+          </p>
+        </header>
+
+        <div class="gallery">
+          <!-- Para usar fotos reais:
+               <figure class="gallery__item"><img src="foto1.jpg" alt="Instalação de quadro elétrico"></figure>
+          -->
+          <figure class="gallery__item reveal"><span>Foto 1</span></figure>
+          <figure class="gallery__item reveal"><span>Foto 2</span></figure>
+          <figure class="gallery__item reveal"><span>Foto 3</span></figure>
+          <figure class="gallery__item reveal"><span>Foto 4</span></figure>
+          <figure class="gallery__item reveal"><span>Foto 5</span></figure>
+          <figure class="gallery__item reveal"><span>Foto 6</span></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Depoimentos</span>
+          <h2 class="section__title">O que dizem os clientes</h2>
+          <p class="section__lead">
+            ✏️ <strong>Importante:</strong> substitua pelos depoimentos reais dos seus clientes.
+          </p>
+        </header>
+
+        <div class="grid grid--3">
+          <blockquote class="quote reveal">
+            <p>"[Substitua por um depoimento real.]"</p>
+            <cite>Nome do cliente</cite>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>"[Substitua por um depoimento real.]"</p>
+            <cite>Nome do cliente</cite>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>"[Substitua por um depoimento real.]"</p>
+            <cite>Nome do cliente</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section section--alt" id="contato">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section__title">Solicite seu orçamento</h2>
+          <p class="section__lead">Preencha o formulário e continue a conversa no WhatsApp.</p>
+        </header>
+
+        <div class="contact">
+          <aside class="contact__info reveal">
+            <div class="contact__block">
+              <span class="contact__label">Telefone / WhatsApp</span>
+              <a class="contact__value" data-tel data-config="telefoneExibicao" href="#">(11) 99999-9999</a>
+            </div>
+            <div class="contact__block">
+              <span class="contact__label">Região de atendimento</span>
+              <span class="contact__value" data-config="regiao">[Sua Cidade] e região</span>
+            </div>
+            <div class="contact__block">
+              <span class="contact__label">Horário</span>
+              <span class="contact__value">Segunda a sábado, 8h às 18h</span>
+            </div>
+
+            <a href="#" class="btn btn--primary btn--lg btn--block"
+               data-whatsapp="Olá! Vim pelo site e gostaria de solicitar um orçamento.">
+              Falar no WhatsApp
+            </a>
+          </aside>
+
+          <form class="form reveal" id="contact-form" novalidate>
+            <div class="form__field">
+              <label for="nome">Nome *</label>
+              <input type="text" id="nome" name="nome" required minlength="2" autocomplete="name" />
+              <small class="form__error" data-error-for="nome" role="alert"></small>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="telefone">Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" required autocomplete="tel" placeholder="(11) 99999-9999" />
+                <small class="form__error" data-error-for="telefone" role="alert"></small>
+              </div>
+              <div class="form__field">
+                <label for="cidade">Cidade / Bairro</label>
+                <input type="text" id="cidade" name="cidade" autocomplete="address-level2" />
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label for="servico">Serviço desejado *</label>
+              <select id="servico" name="servico" required>
+                <option value="">Selecione...</option>
+                <option>Tomadas e interruptores</option>
+                <option>Manutenção elétrica</option>
+                <option>Iluminação</option>
+                <option>Troca de disjuntores</option>
+                <option>Quadros elétricos</option>
+                <option>Diagnóstico de rede</option>
+                <option>Outro</option>
+              </select>
+              <small class="form__error" data-error-for="servico" role="alert"></small>
+            </div>
+
+            <div class="form__field">
+              <label for="mensagem">Descreva o serviço *</label>
+              <textarea id="mensagem" name="mensagem" rows="4" required minlength="10"></textarea>
+              <small class="form__error" data-error-for="mensagem" role="alert"></small>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--lg btn--block">
+              Enviar e continuar no WhatsApp
+            </button>
+            <p class="form__hint">Ao enviar, você será redirecionado ao WhatsApp com a mensagem preenchida.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> <span data-config="nome">[Seu Nome]</span> — Eletricista.</p>
+      <p>Atendimento em <span data-config="cidade">[Sua Cidade]</span> e região.</p>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLUTUANTE ============ -->
+  <a href="#" class="whatsapp-float" aria-label="Falar no WhatsApp"
+     data-whatsapp="Olá! Vim pelo site e gostaria de solicitar um orçamento.">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.2 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.8 2c.1.1.1.3 0 .4l-.3.4-.3.3c-.1.1-.2.3 0 .5.1.2.6 1 1.3 1.6.9.8 1.6 1 1.9 1.2.2.1.4 0 .5-.1l.7-.8c.2-.2.3-.2.5-.1l1.9.9c.2.1.4.2.4.3.1.2.1.9-.1 1.6Z"/></svg>
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
